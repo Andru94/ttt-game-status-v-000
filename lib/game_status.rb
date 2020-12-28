@@ -68,6 +68,10 @@ def winner(board)
   nil
 end
 
+def play(board)
+  until over?(board)
+    
+
 #def position_taken?(board, index)
 #  !(board[index].nil? || board[index] == " ")
 #end
